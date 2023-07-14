@@ -3,7 +3,7 @@ from math_1 import soma
 
 class TestSoma(unittest.TestCase):
     def test_soma(self):
-        total = soma(15, 10)
+        total = soma(15, 15)
         print(f"TOTAL: {total}")
         self.assertEqual(total, 30, "Resultado da soma invalido")
 
